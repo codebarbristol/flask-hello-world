@@ -21,7 +21,8 @@ pip install logger
 
 ### Installing Flask
 
-Before you can serve your webpage you will need to install the dependecy by running the below command.
+Before you can serve your webpage you will need to install the dependecy by running the below command in your command prompt / terminal.
+
 
 ```
 pip install Flask
