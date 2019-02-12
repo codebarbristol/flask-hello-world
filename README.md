@@ -27,6 +27,19 @@ Before you can serve your webpage you will need to install the dependecy by runn
 pip install Flask
 ```
 
+### Hello World
+
+The [hello.py](./hello.py) file contains a simple web app that will print `hello world!` when you visit http://localhost:5000/ in a browser
+
+In order to run tha application you now need to run 
+
+```
+python hello.py
+```
+
+Now customise the welcome message
 
 
 ## Links from discussions
+
+Sololearn - https://www.sololearn.com/
