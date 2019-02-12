@@ -37,7 +37,7 @@ In order to run tha application you now need to run
 python hello.py
 ```
 
-Now customise the welcome message
+Now update the welcome message so say "Hello your name!"
 
 
 ## Links from discussions
