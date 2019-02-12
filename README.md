@@ -9,13 +9,23 @@
 
 Python provides a package manager calle [pip](https//pypi.org/project/pip/). This will allow you to download other software for use in your application.
 
-The below command witll
+The below command will install a logger for use in your
 
 ```python
 pip install logger
 ```
 
 ## Intro to Flask
+
+Flask is package that will allow you to serve data over a webserver, this can be anything from a webpage to a collection of cat pictures.
+
+### Installing Flask
+
+Before you can serve your webpage you will need to install the dependecy by running the below command.
+
+```
+pip install Flask
+```
 
 
 
