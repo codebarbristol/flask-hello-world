@@ -17,7 +17,7 @@ pip install logger
 
 ## Intro to Flask
 
-Flask is package that will allow you to serve data over a webserver, this can be anything from a webpage to a collection of cat pictures.
+[Flask](http://flask.pocoo.org/) is package that will allow you to serve data over a webserver, this can be anything from a webpage to a collection of cat pictures.
 
 ### Installing Flask
 
