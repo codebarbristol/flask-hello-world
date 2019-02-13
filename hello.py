@@ -6,7 +6,7 @@ from flask import Flask
 app = Flask(__name__)
 
 # when the route matches the / route
-# run the below command
+# run the below function
 @app.route("/")
 def hello():
     return "Hello World!"

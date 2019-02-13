@@ -30,7 +30,7 @@ pip install Flask
 
 ### Hello World
 
-The [hello.py](./hello.py) file contains a simple web app that will print `hello world!` when you visit http://localhost:5000/ in a browser
+The [`hello.py`](./hello.py) file contains a simple web app that will print `hello world!` when you visit http://localhost:5000/ in a browser
 
 In order to run tha application you now need to run 
 
@@ -38,9 +38,26 @@ In order to run tha application you now need to run
 python hello.py
 ```
 
-Now update the welcome message so say "Hello your name!"
+Now update `hello.py` with a new `/goodbye` route that returns the message `goodbye!` to anybody who visits
 
+
+### Counter
+
+In the next example we are going to be storing some data between requests so that we can update and present the new value to our users.
+
+The [`add.py`](./add.py) introduces a new variable `counter` that we are able to manipulate in any of our functions that are executed when a user visits one of our pages.
+
+To run the `add.py` example run
+
+```
+python add.py
+```
+
+When you visit http://localhost:5000/add you will now be given the current value of the counter, hit refresh in your browser multiple times to see what happens
+
+Now that you are up and running can you add a `/subtract` route that will take `1` away from the counter
 
 ## Links from discussions
 
+Codebar tutorials - http://tutorials.codebar.io/
 Sololearn - https://www.sololearn.com/
